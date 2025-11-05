@@ -24,7 +24,7 @@ const handleVerify = async () => {
     buttonText.value = 'Verifierar...'
 
     let req = await fetch(
-      'http://92.5.118.191:3000/add?u=' + minecraftUsername.value + '&p=' + verificationCode.value,
+      'https://api.bunci.net/add?u=' + minecraftUsername.value + '&p=' + verificationCode.value,
     )
     minecraftUsername.value = ''
     verificationCode.value = ''
