@@ -21,9 +21,9 @@
 
 .ssi-component h2 {
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #ffffff;
-  text-align: right;
+  text-align: center;
 }
 
 .ssi-component h3 {
@@ -39,6 +39,12 @@
     align-items: flex-end;
     padding-right: 15mm;
     margin-bottom: 0;
+  }
+
+  .ssi-component h2 {
+    font-size: 2rem;
+
+    text-align: right;
   }
 }
 </style>
